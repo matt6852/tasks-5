@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <div>car</div>
+    <div id="status"></div>
+    <button id="start">start car</button> -->
+
+    <div class="form-container">
+      <form class="form">
+        <div class="first-child">
+          <div class="label">
+            <label class="first-child-label" for="fullNameInput"
+              >Your full given name</label
+            >
+          </div>
+          <div class="input-border">
+            <input
+              class="main-inputs"
+              placeholder="Jone Doe"
+              type="text"
+              id="fullNameInput"
+            />
+          </div>
+        </div>
+        <div class="second-child">
+          <div>
+            <div>
+              <label for="birthDate">Date of Birth</label>
+            </div>
+            <div class="input-border">
+              <input
+                placeholder="&#xf073;    January 7,1984"
+                style="font-family: Arial, FontAwesome"
+                type="text"
+                onfocus="(this.type = 'date')"
+                id="date"
+              />
+            </div>
+          </div>
+
+          <!-- <input type="text" /> -->
+          <div>
+            <div>
+              <label for="country">Country of residence or citezenship:</label>
+            </div>
+            <div class="input-border">
+              <input class="second-child-input" placeholder="Canada" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="annetd">What scool do you plan ro attend </label>
+          </div>
+          <div class="input-border">
+            <input
+              class="main-inputs"
+              type="text"
+              id="annetd"
+              placeholder="University of Britich Columbia"
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="coment"
+              >Please take a moment to describe your intended area of
+              study:</label
+            >
+          </div>
+          <div class="input-border">
+            <textarea
+              class="main-inputs"
+              name=""
+              id="coment"
+              cols="30"
+              rows="10"
+              placeholder="Enter details here"
+            ></textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
